@@ -1,0 +1,30 @@
+/* Контейнеры 
+.header {
+  margin: 0 auto;
+  padding: 80px 0 0 0;
+}
+
+/* Доп стили 
+p:last-child {
+  margin-bottom: 0;
+}
+
+p:first-child {
+  margin-top: 0;
+}
+
+/* Отступы для элементов рядом с изображениями 
+p + img {
+  margin-top: 90px;
+}
+
+/* убираем дублирование отступа у текста после картинки 
+img + p {
+  margin-top: 0;
+} */
+
+body {
+  font-family: "PT Sans";
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: grayscale;
+}

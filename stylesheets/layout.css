@@ -22,8 +22,12 @@ p + img {
 img + p {
   margin-top: 0;
 } */
+/* стили для главной страницы */
 * {
   box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
 }
 body {
   font-family: "PT Sans";
@@ -133,4 +137,36 @@ blockquote ::before {
   background-color: rgba(0, 0, 0, 0.8);
   top: 0;
   left: -20px;
+}
+
+/* стили для бокового меню  */
+
+nav.sidebar {
+  width: 300px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  line-height: 100%;
+  padding-top: 20px;
+  font-size: 14px;
+  opacity: 0.2;
+}
+
+nav.sidebar ol {
+  width: 100%;
+  font-size: inherit;
+  list-style-type: none;
+  margin: 0;
+  line-height: 24px;
+}
+nav.sidebar a {
+  text-decoration: none;
+}
+
+nav.sideral ol > ol {
+  color: rgba(0, 0, 0, 0.4);
+}
+nav.sidebar:hover {
+  opacity: 1;
+  transition: 0.3s;
 }
